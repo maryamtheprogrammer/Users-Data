@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(240, 186, 224);
+    box-sizing: border-box;
+}
+
+img {
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+}
+
+table  {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 0.6em;
+    color: red;
+    background-color: #fff;
+}
+
+tr:nth-child(3) {
+    background-color:  rgb(240, 180, 235);
+}
+
+tr:nth-child(5) {
+    background-color: rgb(240, 180, 235);
+}
+
+
+tr {
+    height: 9vh;
+}
+
+.pic {
+    padding: 0 1vw;
+}
+
+.name {
+    padding: 0 2vw;
+}
+
+.email {
+    padding: 0 2vw;
+}
+
+.number {
+    padding: 0 1vw;
+    width: 9vw;
+}
+
+.para {
+    padding: 1vw;
+}
+
+.main-head {
+    background-color: rgb(196, 1, 147);
+    color: white;
+    font-weight: bold;
+    font-size: 1.7vw;
+    border-top-left-radius: 0.6em;
+    border-top-right-radius: 0.6em;
+}
